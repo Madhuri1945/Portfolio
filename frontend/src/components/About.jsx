@@ -1,11 +1,12 @@
 import React from "react";
 import img from "../assets/img.jpg";
-import git from "../assets/git.png";
+
 import insta from "../assets/instagram.webp";
 import fb from "../assets/Facebook.webp";
 import linkedin from "../assets/linkedin.png";
 import leetcode from "../assets/leetcode.png";
 import gfg from "../assets/gfg.png";
+import git from "../assets/Git.png";
 const About = ({ isTheme }) => {
   const social = [
     [git, "https://github.com/Madhuri1945"],
