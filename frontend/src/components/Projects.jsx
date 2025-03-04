@@ -11,7 +11,7 @@ import todo from "../assets/To-Do.png";
 import omnifood from "../assets/omnifood.png";
 import weather from "../assets/weather.png";
 import travel from "../assets/travel1.png";
-import git from "../assets/git.png";
+import git from "../assets/Git.png";
 import { FaArrowRight } from "react-icons/fa";
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
 import linkdin from "../assets/linkdin.png";
