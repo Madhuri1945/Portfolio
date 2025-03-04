@@ -8,7 +8,7 @@ import express from "../assets/Ex.png";
 import mongo from "../assets/Mongo.png";
 import node from "../assets/Node.png";
 import java from "../assets/java.png";
-import tailwind from "../assets/Tailwind.png";
+import tailwind from "../assets/tailwind.png";
 import sql from "../assets/sql.png";
 
 const Skills = ({ isTheme }) => {
