@@ -8,4 +8,11 @@ export default defineConfig({
   optimizeDeps: {
     include: ["swiper"],
   },
+  build: {
+    outDir: "public",
+    emptyOutDir: true,
+  },
+  server: {
+    port: 3000,
+  },
 });
