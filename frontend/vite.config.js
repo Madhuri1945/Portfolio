@@ -9,10 +9,11 @@ export default defineConfig({
     include: ["swiper"],
   },
   build: {
-    outDir: "public",
-    emptyOutDir: true,
+    outDir: "dist", // Keep the default output directory for built files
+    emptyOutDir: true, // Clean the output directory before building
   },
+  publicDir: "public-assets", // Use a separate directory for static assets
   server: {
-    port: 3000,
+    port: 3000, // Optional: Customize the development server port
   },
 });
